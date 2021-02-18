@@ -1,0 +1,84 @@
+.aboutContainer{
+  /* text-align: center; */
+  margin-top: 50vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  background-color: #7c9885;
+}
+
+.aboutHeader{
+  color: #033f63;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.aboutUnderline{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 10rem;
+  background-color: #033f63;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+}
+
+.headShotContainer{ 
+  width: 1000px;
+  align-self: center;
+  padding: 30px;
+  margin: 20px 30px 30px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+  background-color: #033f63;
+}
+
+.profilePicture{
+  width: 400px;
+  height: 400px;
+  background: url(https://i.imgur.com/yUdbyGq.jpg?1);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 0px 30px 30px 10px;
+}
+
+.aboutMe{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 1.9rem;
+  font-size: 1.3rem;
+  margin: 5rem 2rem 2rem 2rem;
+  color: #fedc97;
+}
+
+.skillsHead{
+  margin-top: 7rem;
+  margin-bottom: -5px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fedc97;
+}
+
+.skillsList{
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fedc97;
+  line-height: 3rem;
+}
+
+.skillsUnderline{
+  width: 10rem;
+  background-color: #fedc97;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+}

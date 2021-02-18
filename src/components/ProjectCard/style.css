@@ -1,0 +1,43 @@
+.card {
+  background: rgb(0, 58, 53);
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 325px;
+  box-shadow: 0 3px 6px rgb(58, 58, 58), 0 3px 6px rgb(59, 59, 59);
+  font-family: sans-serif;
+}
+
+.card > .img-container {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background:rgb(0, 58, 53);
+}
+.card > .img-container > img {
+  width: 60%
+}
+
+.card > .content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 15px;
+  color: white;
+  background: rgb(0, 24, 32);
+}
+
+.card > .content > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.card > .content > ul > li {
+  margin-top: 18px;
+}
+
+.card > .img-container > img {
+  width: 325px;
+}

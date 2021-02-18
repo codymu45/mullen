@@ -1,0 +1,64 @@
+.contactContainer{
+  /* text-align: center; */
+  margin-top: 50vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  background-color: #7c9885;
+}
+
+.contactHeader{
+  color: #033f63;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.contactUnderline{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 10rem;
+  background-color: #033f63;
+  height: 3px;
+  border: none;
+  border-radius: 2px;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  align-self: center;
+  background-color: #033f63;
+  border-radius: 10px;
+  
+}
+
+#inputName{
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#inputEmail{
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#inputMessage{
+  margin: 20px;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#contactSubmit{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 100px;
+  align-self: center;
+  margin: 20px;
+}

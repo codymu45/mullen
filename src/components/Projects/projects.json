@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Password Generator",
+    "image": "https://i.imgur.com/p18OP6L.png",
+    "ghLink": "https://github.com/codymu45/passwordgenerator",
+    "dLink": "https://codymu45.github.io/passwordgenerator/"
+  },
+  {
+    "id": 2,
+    "name": "Breaking Bad Quiz",
+    "image": "https://i.imgur.com/G6OAMPB.jpg",
+    "ghLink": "https://github.com/codymu45/quiz",
+    "dLink": "https://codymu45.github.io/quiz/"
+  },
+  {
+    "id": 3,
+    "name": "Daily Planner",
+    "image": "https://i.imgur.com/mODKTOZ.jpg",
+    "ghLink": "https://github.com/codymu45/dailyPlanner",
+    "dLink": "https://codymu45.github.io/dailyPlanner/"
+  },
+  {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "image": "https://i.imgur.com/i2s4dCX.jpg",
+    "ghLink": "https://github.com/codymu45/weather_app",
+    "dLink": "https://codymu45.github.io/weather_app/"
+  },
+  {
+    "id": 5,
+    "name": "Note Taker",
+    "image": "https://i.imgur.com/vhB6OoV.png",
+    "ghLink": "https://github.com/codymu45/noteTaker",
+    "dLink": "https://mullennotetaker.herokuapp.com/"
+  },
+  {
+    "id": 6,
+    "name": "Work in Progress Task Manager",
+    "image": "https://i.imgur.com/ua5mlQ4.jpg",
+    "ghLink": "https://github.com/codymu45/workInProgress",
+    "dLink": "https://mecc-project2.herokuapp.com/"
+  }   
+]
