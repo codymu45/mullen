@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-// import * as Scroll from 'react-scroll';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
