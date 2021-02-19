@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function ProjectCard(props) {
+  useEffect(() => {
+    Aos.init({duration: 800});
+  }, []);
   return (
-    <div className='card'>
+    <div data-aos='flip-right' className='card'>
       <div className='img-container'>
         <img alt={props.name} src={props.image} />
       </div>

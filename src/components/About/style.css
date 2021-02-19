@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 90vh;
+  height: fit-content;
   background-color: #7c9885;
 }
 
@@ -47,7 +47,7 @@
   border-radius: 50%;
   float: left;
   shape-outside: circle();
-  margin: 0px 30px 30px 10px;
+  margin: 30px 30px 30px 10px;
 }
 
 .aboutMe{
