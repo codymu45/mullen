@@ -1,21 +1,21 @@
 export const NavItems = [
   {
     title: 'Top',
-    url: '#',
+    url: 'canvasContainer',
     cName: 'nav-links'
   },
   {
     title: 'About',
-    url: '#about',
+    url: 'aboutContainer',
     cName: 'nav-links'
   },{
     title: 'Projects',
-    url: '#projects',
+    url: 'projectContainer',
     cName: 'nav-links'
   },
   {
     title: 'Contact',
-    url: '#contact',
+    url: 'contactContainer',
     cName: 'nav-links'
   }
 ]

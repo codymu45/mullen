@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import { NavItems } from './NavItems';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
 
@@ -11,9 +12,12 @@ const NavBar = () => {
           {NavItems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                {/* <a className={item.cName} href={item.url}>
                   {item.title}
-                </a>
+                </a> */}
+                <Link className={item.cName} to={item.url} smooth={true} duration={1000}>
+                  <span>{item.title}</span>
+                </Link>
               </li>
             )
           })}

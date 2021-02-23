@@ -8,7 +8,7 @@ const About = () => {
     Aos.init({duration: 1000});
   }, []);
   return (
-    <div className='aboutContainer'>
+    <div id='aboutContainer'>
       <div className='aboutTitle'>
         <h1 className='aboutHeader'>About</h1>
         <hr className='aboutUnderline'/>

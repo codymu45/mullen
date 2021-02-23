@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { BsChevronDoubleDown } from 'react-icons/bs';
 import './style.css';
+import { Link } from 'react-scroll';
 
 
 
@@ -127,7 +128,7 @@ const Canvas = () => {
   }, [])
 
   return (
-    <div className='canvasContainer'>
+    <div id='canvasContainer'>
         <div className='backgroundCanvas'>
           <canvas ref={canvasRef}/>
         </div>
@@ -135,7 +136,9 @@ const Canvas = () => {
           <h1>Cody Mullen</h1>
           <h2>Full Stack Web Developer</h2>
           <button className='seeWork' type='button'>
-            <span><BsChevronDoubleDown className='downArrow'/></span>
+            <Link className='downArrowToAbout' to='aboutContainer' smooth={true} duration={1000}>
+              <span><BsChevronDoubleDown className='downArrow'/></span>
+            </Link>
           </button>
         </div>
 

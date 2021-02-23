@@ -8,7 +8,7 @@ const Contact = () => {
     Aos.init({duration: 1000});
   }, []);
   return (
-    <div className='contactContainer'>
+    <div id='contactContainer'>
       <div className='contactTitle'>
         <h1 className='contactHeader'>Contact</h1>
         <hr className='contactUnderline'/>
