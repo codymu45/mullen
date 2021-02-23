@@ -1,0 +1,62 @@
+.footContainer{
+  width: 100%;
+  background-color: #fedc97;
+  margin-top: 100px;
+  padding: 20px 0px 20px 0px;
+
+}
+
+.contactLinks{
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #7c9885;
+  border-radius: 20px;
+}
+
+#linkedInLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#linkedInLogo:hover{
+  color: #fedc97;
+  transition: ease-out 0.3s;
+}
+
+#githubLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#githubLogo:hover{
+  color: #fedc97;
+  transition: ease-out 0.3s;
+}
+
+#instagramLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#instagramLogo:hover{
+  color: #fedc97;
+  transition: ease-out 0.3s;
+}
+
+#resumeLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#resumeLogo:hover{
+  color: #fedc97;
+  transition: ease-out 0.3s;
+}

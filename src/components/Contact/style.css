@@ -37,7 +37,7 @@
 }
 
 #inputName{
-  margin: 0 20 20 20;
+  margin-top: -15px;
   font-family: 'Montserrat', sans-serif;
   width: 75%;
   height: 30px;
@@ -48,7 +48,7 @@
 }
 
 #inputEmail{
-  margin: 0 20 20 20;
+  margin-top: -15px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   width: 75%;
@@ -59,7 +59,7 @@
 }
 
 #inputMessage{
-  margin: 0 20 20 20;
+  margin-top: -15px;
   width: 75%;
   height: 300px;
   font-family: 'Montserrat', sans-serif;
@@ -77,22 +77,22 @@
 }
 
 #nameLabel{
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
   padding-top: 10px;
+  margin-left: 12%;
   color: #fedc97;
 }
 
 #emailLabel{
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
+  margin-left: 12%;
   padding-top: 10px;
   color: #fedc97;
 }
 
 #messageLabel{
-  font-size: 30px;
-  text-align: center;
+  font-size: 25px;
+  margin-left: 12%;
   padding-top: 10px;
   color: #fedc97;
 }

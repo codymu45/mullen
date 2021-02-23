@@ -14,11 +14,11 @@ const Contact = () => {
         <hr className='contactUnderline'/>
       </div>
       <div className='contactForm'>
-        <label data-aos='fade-right' for='inputName' id='nameLabel'>Name</label><br/>
+        <label data-aos='fade-right' for='inputName' id='nameLabel'>Name:</label><br/>
         <input data-aos='fade-left' type='text' id='inputName'/>
-        <label data-aos='fade-right' for='inputEmail' id='emailLabel'>Email</label><br/>
+        <label data-aos='fade-right' for='inputEmail' id='emailLabel'>Email:</label><br/>
         <input data-aos='fade-left' type='email' id='inputEmail'/>
-        <label data-aos='fade-right' for='inputMessage' id='messageLabel'>Message</label><br/>
+        <label data-aos='fade-right' for='inputMessage' id='messageLabel'>Message:</label><br/>
         <input data-aos='fade-left' type='text' id='inputMessage'/>
         <button data-aos='fade-right' type='submit' id='contactSubmit'>
           Send!
