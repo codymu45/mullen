@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const NavBar = () => {
 
   return (
-    <div>
+    <div id='navBarContainer'>
       <nav className='NavBarItem'>
         <ul className='nav-menu'>
           {NavItems.map((item, index) => {

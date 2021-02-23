@@ -129,6 +129,7 @@ const Canvas = () => {
 
   return (
     <div id='canvasContainer'>
+      <div id='topPage'></div>
         <div className='backgroundCanvas'>
           <canvas ref={canvasRef}/>
         </div>

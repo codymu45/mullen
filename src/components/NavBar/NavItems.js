@@ -1,7 +1,7 @@
 export const NavItems = [
   {
     title: 'Top',
-    url: 'canvasContainer',
+    url: 'topPage',
     cName: 'nav-links'
   },
   {

@@ -1,3 +1,11 @@
+#navBarContainer{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
 .NavBarItem{
   background: linear-gradient(90deg, #033f63 10%, #fedc97 120%);
   height: 80px;
