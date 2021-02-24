@@ -96,3 +96,76 @@
   padding-top: 10px;
   color: #fedc97;
 }
+
+.footContainer{
+  width: 100%;
+  background-color: #7c9885;
+  margin-top: 100px;
+  padding: 20px 0px 20px 0px;
+
+}
+
+.contactLinks{
+  margin: auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #fedc97;
+  border-radius: 20px;
+}
+
+#linkedInLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#linkedInLogo:hover{
+  color: #7c9885;
+  transition: ease-out 0.3s;
+}
+
+#githubLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#githubLogo:hover{
+  color: #7c9885;
+  transition: ease-out 0.3s;
+}
+
+#instagramLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#instagramLogo:hover{
+  color: #7c9885;
+  transition: ease-out 0.3s;
+}
+
+#resumeLogo{
+  width: 75px;
+  height: 75px;
+  color: #033f63;
+}
+
+#resumeLogo:hover{
+  color: #7c9885;
+  transition: ease-out 0.3s;
+}
+
+.footLogo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+  color: #033f63;
+  font-size: 20px;
+  font-weight: bold;
+}
