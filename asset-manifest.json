@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mullen/static/css/main.a878aa5e.chunk.css",
+    "main.js": "/mullen/static/js/main.f87b9d12.chunk.js",
+    "main.js.map": "/mullen/static/js/main.f87b9d12.chunk.js.map",
+    "runtime-main.js": "/mullen/static/js/runtime-main.41bcb959.js",
+    "runtime-main.js.map": "/mullen/static/js/runtime-main.41bcb959.js.map",
+    "static/css/2.ec02d681.chunk.css": "/mullen/static/css/2.ec02d681.chunk.css",
+    "static/js/2.af28a3ef.chunk.js": "/mullen/static/js/2.af28a3ef.chunk.js",
+    "static/js/2.af28a3ef.chunk.js.map": "/mullen/static/js/2.af28a3ef.chunk.js.map",
+    "static/js/3.21e1527d.chunk.js": "/mullen/static/js/3.21e1527d.chunk.js",
+    "static/js/3.21e1527d.chunk.js.map": "/mullen/static/js/3.21e1527d.chunk.js.map",
+    "index.html": "/mullen/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/mullen/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.a878aa5e.chunk.css.map": "/mullen/static/css/main.a878aa5e.chunk.css.map",
+    "static/js/2.af28a3ef.chunk.js.LICENSE.txt": "/mullen/static/js/2.af28a3ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41bcb959.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.af28a3ef.chunk.js",
+    "static/css/main.a878aa5e.chunk.css",
+    "static/js/main.f87b9d12.chunk.js"
+  ]
+}
