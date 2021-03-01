@@ -13,7 +13,7 @@ canvas{
 }
 
 #canvasContainer{
-  margin-top: 200px;
+  margin-top: 10%;
 }
 
 .headText{
@@ -37,7 +37,7 @@ h1{
 
 .seeWork {
   align-content: center;
-  width: 100px;
+  width: 10%;
   font-size: 1.3rem;
   color: #28666e;
   margin: 0 auto;
