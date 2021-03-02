@@ -21,10 +21,10 @@ const Contact = () => {
       <form action='https://formspree.io/f/mjvpqjrz' method='POST' className='contactForm'>
         <label data-aos='fade-right' for='inputName' id='nameLabel'>Name:</label><br/>
         <input data-aos='fade-left' type='text' id='inputName' name='name'/>
-        <label data-aos='fade-right' for='inputEmail' id='emailLabel' name='_replyto' >Email:</label><br/>
-        <input data-aos='fade-left' type='email' id='inputEmail'/>
-        <label data-aos='fade-right' for='inputMessage' id='messageLabel' name='message' >Message:</label><br/>
-        <input data-aos='fade-left' type='text' id='inputMessage'/>
+        <label data-aos='fade-right' for='inputEmail' id='emailLabel'>Email:</label><br/>
+        <input data-aos='fade-left' type='email' id='inputEmail' name='_replyto' />
+        <label data-aos='fade-right' for='inputMessage' id='messageLabel' >Message:</label><br/>
+        <input data-aos='fade-left' type='text' id='inputMessage' name='message'/>
         <button data-aos='fade-right' type='submit' id='contactSubmit'>
           Send!
         </button>
