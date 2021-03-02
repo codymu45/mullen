@@ -18,7 +18,7 @@ const Contact = () => {
         <h1 className='contactHeader'>Contact</h1>
         <hr className='contactUnderline'/>
       </div>
-      <div className='contactForm'>
+      <form action='contactForm.php' className='contactForm'>
         <label data-aos='fade-right' for='inputName' id='nameLabel'>Name:</label><br/>
         <input data-aos='fade-left' type='text' id='inputName'/>
         <label data-aos='fade-right' for='inputEmail' id='emailLabel'>Email:</label><br/>
@@ -28,7 +28,7 @@ const Contact = () => {
         <button data-aos='fade-right' type='submit' id='contactSubmit'>
           Send!
         </button>
-      </div>
+      </form>
       <Router>
         <div className='footContainer'>
           <div className='contactLinks'>
