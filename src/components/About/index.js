@@ -16,7 +16,7 @@ const About = () => {
       <div className='headShotContainer'>
         <div data-aos='fade-right' className='profilePicture'></div>
         <p data-aos='fade-left' className='aboutMe'>
-          Hello, I'm Cody Mullen. I am a full stack web developer. I am a problem solver and have a strong work ethic. 
+          Hello, I'm Cody Mullen. I am a problem solver with a strong work ethic. 
           I have recently earned a certificate in full stack web development 
           from the University of California, Riverside. I am creative and passionate about learning. 
           I primarily focus on functionality and design. With each project, I strive to provide my team 
