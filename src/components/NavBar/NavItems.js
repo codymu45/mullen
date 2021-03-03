@@ -1,6 +1,6 @@
 export const NavItems = [
   {
-    title: 'Top',
+    title: 'Home',
     url: 'topPage',
     cName: 'nav-links'
   },
